@@ -1,4 +1,5 @@
 pub mod arithmetic_progression;
+pub mod average_of_an_array;
 pub mod body_mass_index;
 pub mod fahrenheit_celcius;
 pub mod maximum_of_array;
@@ -12,3 +13,4 @@ pub mod sum_of_digits;
 pub mod sums_in_loop;
 pub mod triangles;
 pub mod vowel_count;
+pub mod weighted_sum_of_digits;
