@@ -1,0 +1,14 @@
+pub mod arithmetic_progression;
+pub mod body_mass_index;
+pub mod fahrenheit_celcius;
+pub mod maximum_of_array;
+pub mod median_of_three;
+pub mod min_of_three;
+pub mod min_of_two;
+pub mod rounding;
+pub mod sum;
+pub mod sum_in_loop;
+pub mod sum_of_digits;
+pub mod sums_in_loop;
+pub mod triangles;
+pub mod vowel_count;
