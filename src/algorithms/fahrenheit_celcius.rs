@@ -7,11 +7,7 @@ fn fahrenheit_to_celcius(numbers: Vec<i32>) -> String {
     let fahrenheits_per_celcius = (fahrenheit_boiling_degree - fahrenheit_freezing_degree)
         / (celcius_boiling_degree - celcius_freezing_degree);
 
-    for (index, number) in numbers.iter().enumerate() {
-        if index == 0 {
-            continue; // Just number of numbers to convert...
-        }
-
+    for number in numbers.iter() {
         let celcius =
             (*number as f32 - fahrenheit_freezing_degree) / fahrenheits_per_celcius as f32;
         let celcius_rounded = celcius.round().to_string();
@@ -29,7 +25,7 @@ mod tests {
     fn fahrenheit_to_celcius_converts_fahrenheit_to_celcius() {
         assert_eq!(
             "257 178 76 -39 -6",
-            fahrenheit_to_celcius(vec![5, 495, 353, 168, -39, 22])
+            fahrenheit_to_celcius(vec![495, 353, 168, -39, 22])
         );
     }
 }

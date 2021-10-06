@@ -1,10 +1,6 @@
 fn sums_in_loops(number_matrix: Vec<Vec<i32>>) -> String {
     let mut answer: Vec<String> = Vec::new();
     for number_list in number_matrix.iter() {
-        if number_list.len() < 2 {
-            continue;
-        }
-
         let mut list_result = 0;
         for number in number_list.iter() {
             list_result += number;
