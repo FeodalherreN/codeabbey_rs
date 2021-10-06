@@ -5,6 +5,7 @@ pub mod average_of_an_array;
 pub mod body_mass_index;
 pub mod dice_rolling;
 pub mod fahrenheit_celcius;
+pub mod linear_function;
 pub mod maximum_of_array;
 pub mod median_of_three;
 pub mod min_of_three;
