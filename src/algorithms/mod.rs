@@ -1,4 +1,6 @@
 pub mod arithmetic_progression;
+pub mod array_checksum;
+pub mod array_counters;
 pub mod average_of_an_array;
 pub mod body_mass_index;
 pub mod dice_rolling;
@@ -7,6 +9,7 @@ pub mod maximum_of_array;
 pub mod median_of_three;
 pub mod min_of_three;
 pub mod min_of_two;
+pub mod reverse_string;
 pub mod rounding;
 pub mod sum;
 pub mod sum_in_loop;
