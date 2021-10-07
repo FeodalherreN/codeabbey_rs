@@ -3,6 +3,7 @@ pub mod array_checksum;
 pub mod array_counters;
 pub mod average_of_an_array;
 pub mod body_mass_index;
+pub mod collatz_sequence;
 pub mod dice_rolling;
 pub mod fahrenheit_celcius;
 pub mod linear_function;
