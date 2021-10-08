@@ -10,11 +10,6 @@ fn modular_calculator(start_number: i32, operations: Vec<(&str, i32)>) -> i32 {
             "%" => answer = answer % number,
             _ => (),
         };
-
-        println!(
-            "Before: {} operation: {} {} after: {}",
-            s, operation, number, answer
-        );
     }
 
     answer
