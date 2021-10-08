@@ -11,6 +11,7 @@ pub mod maximum_of_array;
 pub mod median_of_three;
 pub mod min_of_three;
 pub mod min_of_two;
+pub mod modular_calculator;
 pub mod modulo_and_time_difference;
 pub mod reverse_string;
 pub mod rounding;
